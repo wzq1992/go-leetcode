@@ -1,4 +1,4 @@
-package lesssons
+package lessons
 
 func isValid(s string) bool {
 	length := len(s)

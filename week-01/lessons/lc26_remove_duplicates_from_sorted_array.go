@@ -1,4 +1,4 @@
-package lesssons
+package lessons
 
 func removeDuplicates(nums []int) int {
 	k := 0

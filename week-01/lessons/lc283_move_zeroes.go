@@ -1,4 +1,4 @@
-package lesssons
+package lessons
 
 // 方法二
 func moveZeroes(nums []int) {

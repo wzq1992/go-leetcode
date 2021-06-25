@@ -1,4 +1,4 @@
-package lesssons
+package lessons
 
 func detectCycle(head *ListNode) *ListNode {
 	fast, slow := head, head

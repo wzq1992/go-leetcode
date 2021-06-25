@@ -1,4 +1,4 @@
-package lesssons
+package lessons
 
 func hasCycle(head *ListNode) bool {
 	fast := head
