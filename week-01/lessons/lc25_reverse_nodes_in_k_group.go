@@ -1,10 +1,5 @@
 package lessons
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func reverseKGroup(head *ListNode, k int) *ListNode {
 	protect := &ListNode{0, head}
 

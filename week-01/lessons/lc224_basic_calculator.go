@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func calculate(s string) int {
+func calculate1(s string) int {
 	var tokens []string
 	var ops []byte
 	var val int
@@ -49,7 +49,7 @@ func calculate(s string) int {
 			tokens = append(tokens, "0")
 		}
 
-		for len(ops) != 0 && getRank(ops[len(ops)-1]) >= getRank(ch) {
+		for len(ops) != 0 && getRank1(ops[len(ops)-1]) >= getRank1(ch) {
 			tokens = append(tokens, string(ops[len(ops)-1]))
 			ops = ops[:len(ops)-1]
 		}
@@ -68,10 +68,10 @@ func calculate(s string) int {
 	}
 
 	fmt.Println(tokens)
-	return evalRPN(tokens)
+	return evalRPN1(tokens)
 }
 
-func getRank(ch byte) int {
+func getRank1(ch byte) int {
 	switch ch {
 	case '+', '-':
 		return 1
@@ -82,7 +82,7 @@ func getRank(ch byte) int {
 	}
 }
 
-func evalRPN(tokens []string) int {
+func evalRPN1(tokens []string) int {
 	var stack []int
 
 	for _, s := range tokens {
@@ -92,7 +92,7 @@ func evalRPN(tokens []string) int {
 			v2 := stack[len(stack)-1]
 			stack = stack[:len(stack)-1]
 
-			stack = append(stack, calc(s, v2, v1))
+			stack = append(stack, calc1(s, v2, v1))
 		} else {
 			v, _ := strconv.Atoi(s)
 			stack = append(stack, v)
@@ -102,7 +102,7 @@ func evalRPN(tokens []string) int {
 	return stack[len(stack)-1]
 }
 
-func calc(op string, v1, v2 int) int {
+func calc1(op string, v1, v2 int) int {
 	switch op {
 	case "+":
 		return v1 + v2
