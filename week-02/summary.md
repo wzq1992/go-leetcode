@@ -34,8 +34,61 @@
 课上例题
 ----------
 
+1. [两数之和（Easy）](https://leetcode-cn.com/problems/two-sum/description/)
+
+    * [练习代码](./lessons/lc1_two_sum.go)
+
+2. [模拟行走机器人（Easy）](https://leetcode-cn.com/problems/walking-robot-simulation/)
+
+    * [练习代码](./lessons/lc874_walking_robot_simulation.go)
+
+3. [字母异位词分组（Medium）](https://leetcode-cn.com/problems/group-anagrams/)
+
+    * [练习代码](./lessons/lc49_group_anagrams.go)
+
+4. [串联所有单词的子串（Hard）](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
+
+    * [练习代码](./lessons/lc30_substring_with_concatenation_of_all_words.go)
+
 
 -----------------------------------
+
+哈希表
+--------
+Hash table, 散列表
+
+组成: 
+
+    * 数据结构: 链表、数组
+    
+    * Hash 函数
+
+哈希碰撞:
+    
+    * 解决方案: 开散列
+
+应用:
+    
+    * 电话号码簿
+    
+    * 用户信息表
+    
+    * 缓存（LRU Cache）
+    
+    * 键值对存储（Redis）
+
+均匀分布的方法:
+
+    * 模一个质数
+
+
+集合与映射
+---------
+
+* 有序集合
+
+* 无序集合
+
 
 递归
 -----------
