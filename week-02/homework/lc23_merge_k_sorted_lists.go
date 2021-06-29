@@ -10,11 +10,7 @@ func mergeKLists(lists []*ListNode) *ListNode {
 		return nil
 	}
 
-	if len(lists) == 1 {
-		return lists[0]
-	}
-
-	return mergeTwoLists(mergeKLists(lists[:len(lists)-1]), lists[len(lists)-1])
+	return mergeTwoLists(lists[0], mergeKLists(lists[1:]))
 }
 
 // lc121
