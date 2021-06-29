@@ -10,7 +10,13 @@ func subdomainVisits(cpdomains []string) []string {
 	counters := map[string]int{}
 
 	for _, s := range cpdomains {
+		if s == "" {
+			continue
+		}
 		ss := strings.Split(s, " ")
+		if len(ss) != 2 {
+			continue
+		}
 		timesStr, fullDomain := ss[0], ss[1]
 		times, _ := strconv.Atoi(timesStr)
 
