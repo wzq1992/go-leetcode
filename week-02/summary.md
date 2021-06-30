@@ -50,6 +50,18 @@
 
     * [练习代码](./lessons/lc30_substring_with_concatenation_of_all_words.go)
 
+5. [子集（Medium）](https://leetcode-cn.com/problems/subsets/)
+
+    * [练习代码](./lessons/lc78_subsets.go)
+
+6. [组合（Medium）](https://leetcode-cn.com/problems/combinations/)
+
+    * [练习代码](./lessons/lc77_combinations.go)
+
+7. [全排列（Medium）](https://leetcode-cn.com/problems/permutations/)
+
+    * [练习代码](./lessons/lc46_permutations.go)
+
 
 -----------------------------------
 
