@@ -62,6 +62,30 @@
 
     * [练习代码](./lessons/lc46_permutations.go)
 
+8. [翻转二叉树（Easy）](https://leetcode-cn.com/problems/invert-binary-tree/)
+
+    * [练习代码](./lessons/lc226_invert_binary_tree.go)
+    
+9. [验证二叉搜索树（Medium）](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+
+    * [练习代码](./lessons/lc98_validate_binary_search_tree.go)
+    
+10. [二叉树的最大深度（Easy）](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+
+    * [练习代码](./lessons/lc104_maximum_depth_of_binary_tree.go)
+    
+10. [二叉树的最小深度（Easy）](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+
+    * [练习代码](./lessons/lc111_minimum_depth_of_binary_tree.go)
+
+11. [Pow(x, n) （Medium）](https://leetcode-cn.com/problems/powx-n/)
+
+    * [练习代码](./lessons/lc50_powx_n.go)
+    
+12. [括号生成（Medium）](https://leetcode-cn.com/problems/generate-parentheses/)
+
+    * [练习代码](./lessons/lc22_generate_parentheses.go)
+
 
 -----------------------------------
 
